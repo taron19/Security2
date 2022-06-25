@@ -1,0 +1,19 @@
+server:
+  port: 8089
+  servlet:
+    context-path: /security
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/project
+    username: postgres
+    password: westside
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql:
+      true
+
+
+
+
